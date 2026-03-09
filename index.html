@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuraeye | Innovative Solutions</title>
+
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome for mobile menu icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header class="navbar" id="navbar">
+        <div class="navbar-container">
+
+            <!-- Left: Logo -->
+            <a href="#" class="logo">
+                <img src="image.png" alt="Nuraeye Logo" class="logo-img">
+            </a>
+
+            <!-- Middle: Navigation Links -->
+            <nav class="nav-links" id="nav-links">
+                <a href="#products" class="nav-item">Products</a>
+                <a href="#solutions" class="nav-item">Solutions</a>
+                <div class="nav-item dropdown">
+                    <span class="dropdown-trigger">Company <i class="fas fa-chevron-down"></i></span>
+                    <div class="dropdown-menu">
+                        <a href="company/about.html" class="dropdown-item">About Us</a>
+                        <a href="company/news.html" class="dropdown-item">In the News</a>
+                        <a href="company/careers.html" class="dropdown-item">Careers</a>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Right: Contact Us Button & Mobile Toggle -->
+            <div class="nav-actions">
+                <a href="contact.html" class="btn btn-primary">Contact Us</a>
+                <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Main Content Placeholder -->
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-media-full">
+                    <div class="video-container-full">
+                        <video id="main-hero-video" autoplay muted playsinline class="hero-video-full">
+                            <source src="vedios/Video_Generation_Request_Fulfilled.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+            <!-- Decorative background elements -->
+            <div class="glow glow-1"></div>
+            <div class="glow glow-2"></div>
+        </section>
+
+        <section id="products" style="height: 100vh; padding: 5rem 2rem;">
+            <div style="max-width: 1200px; margin: 0 auto;">
+                <h2>Our Products</h2>
+                <p style="color: var(--text-muted); margin-top: 1rem;">Content goes here...</p>
+            </div>
+        </section>
+
+        <section id="solutions" style="height: 100vh; padding: 5rem 2rem; background: rgba(255,255,255,0.01);">
+            <div style="max-width: 1200px; margin: 0 auto;">
+                <h2>Our Solutions</h2>
+                <p style="color: var(--text-muted); margin-top: 1rem;">Content goes here...</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>

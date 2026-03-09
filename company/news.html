@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In the News | NuraEye Systems</title>
+
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome for mobile menu icon & other icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../index.css">
+</head>
+
+<body class="news-page">
+
+    <!-- Header Section -->
+    <header class="navbar" id="navbar">
+        <div class="navbar-container">
+
+            <!-- Left: Logo -->
+            <a href="../index.html" class="logo">
+                <img src="../image.png" alt="Nuraeye Logo" class="logo-img">
+            </a>
+
+            <!-- Middle: Navigation Links -->
+            <nav class="nav-links" id="nav-links">
+                <a href="../../index.html#products" class="nav-item">Products</a>
+                <a href="../../index.html#solutions" class="nav-item">Solutions</a>
+                <div class="nav-item dropdown">
+                    <span class="dropdown-trigger active">Company <i class="fas fa-chevron-down"></i></span>
+                    <div class="dropdown-menu">
+                        <a href="about.html" class="dropdown-item">About Us</a>
+                        <a href="news.html" class="dropdown-item">In the News</a>
+                        <a href="careers.html" class="dropdown-item">Careers</a>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Right: Contact Us Button & Mobile Toggle -->
+            <div class="nav-actions">
+                <a href="../contact.html" class="btn btn-primary">Contact Us</a>
+                <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+
+        </div>
+    </header>
+
+    <main style="padding-top: 80px;">
+        <section class="section">
+            <div class="container" style="max-width: 800px;">
+                <div class="section-header text-center">
+
+                    <h1 class="section-title">In the News</h1>
+                    <p style="color: var(--text-muted); margin-top: 1rem;">Stay updated with the latest announcements,
+                        features, and press coverage of NuraEye Systems.</p>
+                </div>
+
+                <!-- News Search -->
+                <div class="news-section glass-panel">
+                    <div class="search-container" style="padding: 0.5rem 0.5rem 0.5rem 1.5rem;">
+                        <i class="fas fa-search search-icon" style="font-size: 1.25rem;"></i>
+                        <input type="text" class="search-input" placeholder="Search news and articles..."
+                            style="font-size: 1.1rem;">
+                        <button class="btn btn-primary search-btn" style="padding: 0.8rem 2rem;">Search</button>
+                    </div>
+                </div>
+
+                <!-- Placeholder space for actual news articles later -->
+                <div
+                    style="margin-top: 4rem; text-align: center; color: var(--text-muted); padding: 4rem; border: 1px dashed rgba(255,255,255,0.1); border-radius: var(--border-radius);">
+                    <i class="far fa-newspaper" style="font-size: 3rem; margin-bottom: 1rem; opacity: 0.5;"></i>
+                    <p>News articles and press releases will appear here.</p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Custom JS -->
+    <script src="../script.js"></script>
+</body>
+
+</html>

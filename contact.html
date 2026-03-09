@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | NuraEye Systems</title>
+
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome for mobile menu icon & other icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body class="contact-page">
+
+    <!-- Header Section -->
+    <header class="navbar" id="navbar">
+        <div class="navbar-container">
+
+            <!-- Left: Logo -->
+            <a href="index.html" class="logo">
+                <img src="image.png" alt="Nuraeye Logo" class="logo-img">
+            </a>
+
+            <!-- Middle: Navigation Links -->
+            <nav class="nav-links" id="nav-links">
+                <a href="index.html#products" class="nav-item">Products</a>
+                <a href="index.html#solutions" class="nav-item">Solutions</a>
+                <div class="nav-item dropdown">
+                    <span class="dropdown-trigger">Company <i class="fas fa-chevron-down"></i></span>
+                    <div class="dropdown-menu">
+                        <a href="company/about.html" class="dropdown-item">About Us</a>
+                        <a href="company/news.html" class="dropdown-item">In the News</a>
+                        <a href="company/careers.html" class="dropdown-item">Careers</a>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Right: Contact Us Button & Mobile Toggle -->
+            <div class="nav-actions">
+                <a href="contact.html" class="btn btn-primary active">Contact Us</a>
+                <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+
+        </div>
+    </header>
+
+    <main style="padding-top: 80px;">
+        <section class="section">
+            <div class="container" style="max-width: 800px; text-align: center;">
+                <div class="badge" style="margin-bottom: 1rem;">Get in Touch</div>
+                <h1 class="section-title">Contact Us</h1>
+                <p style="color: var(--text-muted); margin-bottom: 3rem;">We'd love to hear from you. Please reach out
+                    with any questions or inquiries.</p>
+
+                <div style="display: flex; flex-direction: column; gap: 2rem; align-items: center;">
+
+                    <!-- Address Block -->
+                    <div
+                        style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.05); padding: 3rem; border-radius: 12px; width: 100%; max-width: 500px; text-align: center; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);">
+                        <i class="fas fa-map-marker-alt"
+                            style="font-size: 2.5rem; color: var(--logo-blue); margin-bottom: 1.5rem;"></i>
+                        <h3 style="margin-bottom: 1rem; font-size: 1.5rem;">Head Office</h3>
+                        <p style="color: var(--text-pure); line-height: 1.8; font-size: 1.1rem;">
+                            Hyderabad, India<br>
+                            3rd Floor,<br>
+                            Subishi Town Center Commercial<br>
+                            Mokila,<br>
+                            Hyderabad 501203.
+                        </p>
+                    </div>
+
+                    <!-- Contact Block -->
+                    <div
+                        style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.05); padding: 3rem; border-radius: 12px; width: 100%; max-width: 500px; text-align: center; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);">
+                        <i class="fas fa-phone-alt"
+                            style="font-size: 2.5rem; color: var(--logo-blue); margin-bottom: 1.5rem;"></i>
+                        <h3 style="margin-bottom: 1rem; font-size: 1.5rem;">Phone</h3>
+                        <p style="color: var(--text-pure); line-height: 1.8; font-size: 1.1rem;">
+                            Mobile no: <span style="color: var(--text-muted);">Stay tuned...</span>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
